@@ -304,23 +304,25 @@ nav h1 a {
 /* smartphone */
 @media screen and (max-width: 429px)  {
   #restaurants-list {
- grid-template-columns: 1fr  ;
- padding: 0 5px 25px;
- margin-top: 50px;
+     grid-template-columns: 1fr;
+     padding: 0 5px 25px;
+     margin-top: 0px;
+     width: 300px;
   }
   .filter-options{
-height: 150px;
+    height: 150px;
   }
   #restaurant-container, #reviews-container{
     padding-left: 10px;
     width: 45%;
   }
   #reviews-list li{
-  padding: 0 5px 20px
+    padding: 0 5px 20px
   }
   .inside #footer {
     width: 35%;
   }
+  
 }
 
 /* setting to stay in screen */
