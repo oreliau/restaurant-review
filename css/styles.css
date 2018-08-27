@@ -325,13 +325,16 @@ nav h1 a {
 
 /* smartphone */
 @media screen and (max-width: 429px)  {
-  #restaurants-list {
+  #restaurants-list{
      grid-template-columns: 1fr;
      padding: 0 5px 25px;
      margin-top: 0px;
-     width: 300px;
+     width: 240px;
      padding-left: 0px;
      margin-left: 0px;
+  }
+  #restaurants-list li{
+    width: 240px;
   }
   .filter-options{
     height: 150px;
@@ -345,6 +348,7 @@ nav h1 a {
   }
   #reviews-list li{
     padding: 0 5px 20px
+
   }
   .inside #footer{
     width: 100%;
